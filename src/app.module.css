@@ -10,6 +10,16 @@
   background-color: bisque;
 }
 
+.grid > .bottomItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid > .bottomItem > span {
+  color: #999;
+  margin: auto;
+}
+
 .grid > div > h2 {
   text-align: center;
 }

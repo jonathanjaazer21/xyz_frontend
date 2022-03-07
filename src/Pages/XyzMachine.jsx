@@ -65,8 +65,9 @@ function XyzMachine () {
             <span>{validateError?.message}</span>
           </div>
         </div>
-        <div>
+        <div className={classes.bottomItem}>
           <Output {...entries} />
+          <span>Developed by Jaazer</span>
         </div>
       </div>
     </XyzMachineContext.Provider>

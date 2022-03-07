@@ -1,0 +1,22 @@
+.outputContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+  overflow: auto;
+  height: 70vh;
+  background-color: white;
+  padding: 1rem;
+}
+.outputVertical {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.outputHorizontal {
+  display: flex;
+  margin: auto;
+}
+
+@media (max-width: 425px) {
+}

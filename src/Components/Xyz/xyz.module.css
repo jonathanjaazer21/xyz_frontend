@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.containerItems {
+  display: flex;
+}
+
+.containerItems > span {
+  width: 10px;
+}

@@ -12,12 +12,11 @@
   outline: none;
   padding: 0.5rem;
   margin: 0.1rem 0 0 0;
-  width: 15rem;
+  width: 13rem;
 }
 
 .inputContainer > span {
   position: absolute;
-  color: red;
   right: -1rem;
   cursor: pointer;
 }
@@ -26,11 +25,11 @@
   .inputContainer > input {
     outline: none;
     padding: 0.5rem;
-    margin: 0.1rem 1rem 0 0;
+    margin: 0.1rem 0.5rem 0 0;
     width: 13rem;
   }
 
   .inputContainer > label {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
   }
 }
